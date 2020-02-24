@@ -1,0 +1,53 @@
+body {
+  font-family: "Masqualero";
+  overflow: hidden;
+  color: #FFF;
+}
+
+
+.splash-logo-wrapper {
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: top 1.2s;
+}
+
+.splash-logo-wrapper.hide {
+  top: -50%;
+}
+
+h1 {
+  font: Bold 140px/350px Masqualero;
+  font-weight: bold;
+}
+
+.discover-ours {
+  opacity: 0;
+  transition: opacity 1.2s;
+  font-size: 40px;
+}
+
+.discover-ours.show {
+  opacity: 1;
+}
+
+.background-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: url(images/splash.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transform: scale(1.6);
+  transition: transform 1.2s;
+}
+
+.background-image.zoomout {
+  transform: scale(1)
+}
