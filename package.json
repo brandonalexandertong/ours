@@ -1,0 +1,32 @@
+{
+  "name": "ours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonalexandertong/ours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonalexandertong/ours/issues"
+  },
+  "homepage": "https://github.com/brandonalexandertong/ours#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-preset-env": "^6.7.0"
+  }
+}
