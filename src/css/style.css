@@ -4,6 +4,9 @@ body {
   color: #FFF;
 }
 
+body.overflow {
+  overflow: auto;
+}
 
 .splash-logo-wrapper {
   z-index: 5;
@@ -19,14 +22,43 @@ body {
 }
 
 h1 {
-  font: Bold 140px/350px Masqualero;
+  font: Bold 160px/350px Masqualero;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  max-width: 90vw;
+  line-height: 1.3;
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+.section-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .discover-ours {
   opacity: 0;
   transition: opacity 1.2s;
-  font-size: 40px;
+
+}
+
+.relative {
+  position: relative;
 }
 
 .discover-ours.show {
@@ -34,20 +66,76 @@ h1 {
 }
 
 .background-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   height: 100%;
-  background: url(images/splash.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  transform: scale(1.6);
-  transition: transform 1.2s;
 }
 
 .background-image.zoomout {
   transform: scale(1)
+}
+
+.background-image-1 {
+  background: url(images/splash.png) no-repeat center center fixed;
+  transform: scale(1.6);
+  transition: transform 1.2s;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image-2 {
+  background: url(images/homepage-1.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.background-image-3 {
+  background: url(images/homepage-2.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.background-image-4 {
+  background: url(images/homepage-3.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.background-image-5 {
+  background: url(images/homepage-4.png) no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  bottom: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.large-this h2 {
+  font-size: 320px;
+  display: block;
+}
+
+.mission-background {
+  background: transparent linear-gradient(180deg, #D2E3F1 0%, #D4E2DC 100%) 0% 0% no-repeat padding-box;
 }
