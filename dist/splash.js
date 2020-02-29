@@ -9,7 +9,7 @@ const splash = () => {
   SPLASH_LOGO_WRAPPER.classList.add("hide")
   BACKGROUND_IMAGE.classList.add("zoomout")
   DISCOVER_OURS.classList.add("show")
-  BODY.classList.add("overflow")
+  BODY.classList.remove("overflow")
 }
 
 const delay = () => {
