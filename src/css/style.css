@@ -35,6 +35,18 @@ body.overflow {
   background-color: #F3EAE0;
 }
 
+.orange-background {
+  background-color: #F5CFB5;
+}
+
+.bottle-tax {
+  color: #F5CFB5;
+}
+
+.yoga-tax {
+  color: #F5CFB5
+}
+
 .pink-background {
   background-color: #F9C6AC;
 }
@@ -151,9 +163,38 @@ header {
 }
 
 .activist-button {
-  border: 1px solid black;
+  border: 1px solid #868686;
   padding: .25vw 3vw;
   margin: 2vw;
+  background-color: #fff;
+  color: #868686;
+}
+
+.pioneering {
+  color: #868686;
+}
+
+.pioneering-link {
+  color: #868686;
+}
+
+.logo-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.logo-carousel img {
+  width: 100%;
+}
+
+.logo {
+  padding: 5px;
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .do-good-background h2 {
@@ -171,6 +212,14 @@ header {
   bottom: 50%;
   transform: translateY(50%);
   z-index: 5;
+}
+
+.jacket-tax {
+  color: #EAE4DB;
+}
+
+.jacket-description {
+color: #868686;
 }
 
 .product-solo {
