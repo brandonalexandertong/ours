@@ -377,6 +377,34 @@ color: #868686;
   background-size: 100% 100%;
 }
 
+.materials-background-image-1 {
+  background: url(images/materials-background.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.materials-background-image-2 {
+  background: url(images/materials-2.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.materials-section-1 {
+  justify-content: space-around;
+}
+
+.materials h2 {
+  font-size: 4vw;
+  width: 90vw;
+}
+
+.materials-shop-button {
+  bottom: 24px;
+}
+
+.materials-shop-button a {
+  color: #FBF9F5;
+  -webkit-text-stroke-width: .25px;
+  -webkit-text-stroke-color: #000;
+}
 
 section {
   width: 100%;
