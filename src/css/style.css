@@ -120,9 +120,22 @@ h1 {
 }
 
 .enter-button {
-  margin: 3vw;
   padding: 2vw 4vw;
   border: #707070 .05px solid;
+}
+
+.enter-tag {
+  margin: 3vw;
+}
+
+.essay-page {
+  text-align: center;
+}
+
+.essay-page p, .essay-page h2, .essay-page img {
+  max-width: 100%;
+  margin: 5vw;
+  text-align: center;
 }
 
 .read-full-button {
