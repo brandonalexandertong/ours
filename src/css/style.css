@@ -111,6 +111,32 @@ h1 {
   font-size: 8vw;
 }
 
+.disclaimer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+  text-align: center;
+}
+
+.enter-button {
+  margin: 3vw;
+  padding: 2vw 4vw;
+  border: #707070 .05px solid;
+}
+
+.read-full-button {
+  padding: 1vw 2vw;
+  border: #707070 .05px solid;
+}
+
+.disclaimer a {
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-width: .25px;
+  -webkit-text-stroke-color: #707070;
+}
+
+
 h2 {
   font-size: 3vw;
   text-align: center;
@@ -173,6 +199,7 @@ header {
 .pioneering {
   color: #868686;
 }
+
 
 .pioneering-link {
   color: #868686;
@@ -485,12 +512,14 @@ footer {
 .large-this h2 {
   font-size: 320px;
   display: block;
+  margin-bottom: 10vw;
 }
 
 .simply-h2 {
   position: absolute;
   bottom: 10vw;
   right: 10vw;
+  font-size: 4vw;
 }
 
 .simply-footer {
@@ -500,6 +529,10 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
 
+}
+
+.protecting-you {
+  bottom: 20vw;
 }
 
 .healthy-p {
