@@ -135,6 +135,15 @@ h1 {
 .essay-page p, .essay-page h2, .essay-page img {
   max-width: 100%;
   margin: 5vw;
+  text-align: left;
+}
+
+a.essay-links  {
+  text-decoration: underline;
+  font-size: 2.5vw;
+}
+
+.references p, .references h2 {
   text-align: center;
 }
 
@@ -226,11 +235,11 @@ header {
 }
 
 .logo-carousel img {
-  width: 100%;
+  width: 3vw;
 }
 
 .logo {
-  padding: 5px;
+  padding: .5vw;
   width: 12%;
   display: flex;
   align-items: center;
@@ -320,63 +329,63 @@ color: #868686;
 }
 
 .background-image-2 {
-  background: url(images/homepage-1.png) no-repeat;
+  background: url(images/homepage-1.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
 .background-image-3 {
-  background: url(images/homepage-2.png) no-repeat;
+  background: url(images/homepage-2.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
 .background-image-4 {
-  background: url(images/homepage-3.png) no-repeat;
+  background: url(images/homepage-3.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
 .background-image-5 {
-  background: url(images/homepage-4.png) no-repeat;
+  background: url(images/homepage-4.jpg) no-repeat;
   background-size: 100% 100%;
   flex-direction: column;
 }
 
 .about-background-image-1 {
-  background: url(images/about-1.png) no-repeat;
+  background: url(images/about-1.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
 .about-background-image-2 {
-  background: url(images/about-2.png) no-repeat;
+  background: url(images/about-2.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
 .malthusian-background-image-1 {
-  background: url(images/malthusian-1.png) no-repeat;
+  background: url(images/malthusian-1.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
 .malthusian-background-image-2 {
-  background: url(images/malthusian-2.png) no-repeat;
+  background: url(images/malthusian-2.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
 .malthusian-background-image-3 {
-  background: url(images/malthusian-3.png) no-repeat;
+  background: url(images/malthusian-3.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
 .activist-background-image-1 {
-  background: url(images/activist-1.png) no-repeat;
+  background: url(images/activist-1.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
 .activist-background-image-2 {
-  background: url(images/activist-2.png) no-repeat;
+  background: url(images/activist-2.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
 .activist-background-image-3 {
-  background: url(images/activist-3.png) no-repeat;
+  background: url(images/activist-3.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -413,7 +422,7 @@ color: #868686;
 }
 
 .healthy-background-image-1 {
-  background: url(images/healthy-1.png) no-repeat;
+  background: url(images/healthy-1.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -523,7 +532,7 @@ footer {
 }
 
 .large-this h2 {
-  font-size: 320px;
+  font-size: 13vw;
   display: block;
   margin-bottom: 10vw;
 }
