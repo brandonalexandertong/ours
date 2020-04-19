@@ -19,6 +19,17 @@ body.overflow {
 
 }
 
+.essay-page img {
+  max-width: 90vw;
+}
+
+.essay-download {
+  top: 1vw;
+  width: 100vw;
+  opacity: 0.5;
+  text-align: center;
+}
+
 .tanton-jacket-small {
   max-width: 15vw;
 }
@@ -132,7 +143,7 @@ h1 {
   text-align: center;
 }
 
-.essay-page p, .essay-page h2, .essay-page img {
+.essay-page p, .essay-page h2 {
   max-width: 100%;
   margin: 5vw;
   text-align: left;
