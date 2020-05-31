@@ -595,3 +595,94 @@ footer {
 .mission-background {
   background: transparent linear-gradient(180deg, #D2E3F1 0%, #D4E2DC 100%) 0% 0% no-repeat padding-box;
 }
+
+
+@media (max-width: 425px){
+
+  .malthusian-background-image-1 {
+    background: url(images/malthusian-1-mobile.png) no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .malthusian-background-image-2 {
+    background: url(images/malthusian-2-mobile.png) no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .malthusian-background-image-2 h2 {
+    font-size: 5vw;
+  }
+
+  .malthusian-background-image-3 h2 {
+    max-width: 80vw;
+    margin-bottom: 30vw;
+  }
+
+  .malthusian-footer-mobile a {
+
+    font-size: 4vw;
+  }
+
+  .malthusian-h1.small-h1 {
+    font-size: 10vw;
+  }
+
+  .malthusian-footer-mobile {
+    bottom: 35vw;
+  }
+
+
+  .malthusian-background-image-3 {
+    background: url(images/malthusian-3-mobile.png) no-repeat;
+    background-size: 100% 100%;
+  }
+
+   h1.malthusian-hero {
+    color: white;
+    font-size: 25vw;
+    text-align: center;
+  }
+
+  h1.less-of-this {
+   font-size: 25vw;
+   text-align: center;
+ }
+
+ .healthy-background-image-1 {
+   background: url(images/healthy-mobile.png) no-repeat;
+   background-size: 100% 100%;
+ }
+
+ .small-h1.simply-hero {
+   font-size: 15vw;
+   top: 10vw;
+ }
+
+ .healthy-p {
+   text-align: left;
+    left: 5vw;
+    bottom: 40vh;
+    font-size: 4vw;
+    width: 100%;
+    line-height: 1.4;
+ }
+
+ .simply-background-image-5 {
+   background: url(images/simply-5-mobile.png) no-repeat;
+   background-size: 100% 100%;
+ }
+
+ .simply-background-image-6 {
+   background: url(images/simply-6-mobile.png) no-repeat;
+   background-size: 100% 100%;
+ }
+
+.simply-h2 {
+  font-size: 8vw;
+  color: white;
+  bottom: 30vw;
+}
+ footer a {
+ font-size: 4vw;
+}
+}
