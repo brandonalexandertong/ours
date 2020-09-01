@@ -13,6 +13,14 @@ body.overflow {
   flex-direction: column;
 }
 
+.ours-logo-splash {
+  z-index: 3;
+  font-weight: bold;
+  font-size: 3vw;
+  left: 5vw;
+  top: 1.5vw;
+}
+
 .tanton-jacket {
   max-width: 22vw;
   margin: 3vw;
@@ -130,14 +138,6 @@ h1 {
   text-align: center;
 }
 
-.enter-button {
-  padding: 2vw 4vw;
-  border: #707070 .05px solid;
-}
-
-.enter-tag {
-  margin: 3vw;
-}
 
 .essay-page {
   text-align: center;
@@ -160,13 +160,11 @@ a.essay-links  {
 
 .read-full-button {
   padding: 1vw 2vw;
-  border: #707070 .05px solid;
 }
 
 .disclaimer a {
   -webkit-text-fill-color: #fff;
-  -webkit-text-stroke-width: .25px;
-  -webkit-text-stroke-color: #707070;
+  font-weight: bold;
 }
 
 
