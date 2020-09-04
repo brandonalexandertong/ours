@@ -661,6 +661,48 @@ footer {
    background-size: 100% 100%;
  }
 
+.mobile-activist {
+  display: none;
+}
+
+.activist-background-image-2 {
+  background: url(images/activist-mobile.png) no-repeat;
+  background-size: 70%;
+  background-position: center;
+  transform: translateY(-1vh);
+
+}
+
+.section-wrapper.activist-background-image-2 {
+  color: black;
+  text-align: left;
+  align-items: flex-start;
+  padding-left: 5vw;
+  font-weight: bold;
+}
+
+.activist-priorities {
+  height: fit-content;
+
+  font-size: 16px;
+}
+
+.middle-page-text {
+  margin-top: 0;
+  text-align: left;
+  padding: 10vw 0vw;
+}
+
+.activist-background-image-2 h1 {
+  transform: translateY(-25vh);
+  font-weight: 700;
+}
+
+.activist-footer a {
+  color: black;
+}
+
+
  .small-h1.simply-hero {
    font-size: 15vw;
    top: 10vw;
